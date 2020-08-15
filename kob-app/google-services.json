@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "487681329124",
+    "firebase_url": "https://kob-app-b3ae3.firebaseio.com",
+    "project_id": "kob-app-b3ae3",
+    "storage_bucket": "kob-app-b3ae3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487681329124:android:98ccd1f7dbba1f55",
+        "android_client_info": {
+          "package_name": "king.blacks.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487681329124-emssru0jm7f8tqa3mmk1gid6ojipo81v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "king.blacks.app",
+            "certificate_hash": "0512eb64725dada38a6eddb5f5c84bc47f812b1f"
+          }
+        },
+        {
+          "client_id": "487681329124-p31d2h0dojvsfibia3f3opcevqkh01cm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSzLMPhH-X--u3oZag3P2lWdgXyyRp9jw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487681329124-p31d2h0dojvsfibia3f3opcevqkh01cm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

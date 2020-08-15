@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "King of blacks",
+    "slug": "kob-app",
+    "privacy": "public",
+    "sdkVersion": "33.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "king.blacks.app",
+      "config": {
+        "googleSignIn": {          
+          "reservedClientId": "com.googleusercontent.apps.487681329124-k7fb38bs638v4qt8457n5v0bk5det8lf"
+        }
+      }
+    },
+    "android": {      
+      "package": "king.blacks.app",
+      "googleServicesFile": "./google-services.json"
+    }
+  }
+}
