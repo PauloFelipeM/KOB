@@ -66,7 +66,7 @@ class Card extends Model
 
         require(app_path() . '/connect-php-sdk-master/autoload.php');
 
-        $access_token = 'EAAAENgUCHjutZ88ruzROr2za-T2sUnK-r4R2QFLUagwOk2ErfdjeE9J9sIj0f3H'; //Sandbox
+        $access_token = env('SQUARE_TOKEN');
 
         // Configure OAuth2 access token for authorization: oauth2
         SquareConnect\Configuration::getDefaultConfiguration()->setAccessToken($access_token);
@@ -133,8 +133,7 @@ class Card extends Model
 
             require(app_path() . '/connect-php-sdk-master/autoload.php');
 
-            $access_token = 'EAAAEK96Hu4zz4fFpNF0qmgEqkCr4X_CaGPRE5CctTuUWL1unOBtCblMntkd-qYo'; //Production
-            $access_token = 'EAAAENgUCHjutZ88ruzROr2za-T2sUnK-r4R2QFLUagwOk2ErfdjeE9J9sIj0f3H'; //Sandbox
+            $access_token = env('SQUARE_TOKEN');
 
             // Configure OAuth2 access token for authorization: oauth2
             SquareConnect\Configuration::getDefaultConfiguration()->setAccessToken($access_token);
