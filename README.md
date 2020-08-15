@@ -45,6 +45,8 @@ React Native;
 
 git clone https://github.com/PauloFelipeM/KOB.git
 
+Create the .env file: php artisan key:generate
+
 -------------------------------------------------------------------------------------
 
 ## Configuration:
